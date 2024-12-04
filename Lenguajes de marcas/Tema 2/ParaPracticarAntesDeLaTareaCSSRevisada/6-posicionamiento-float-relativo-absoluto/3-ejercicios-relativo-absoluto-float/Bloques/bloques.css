@@ -1,0 +1,54 @@
+body{ background-color: #EEE}
+
+#contenido{
+
+width: 500px;
+height: 500px;
+
+background-color: orange;
+}
+
+#rojo{
+width: 
+height: 
+background-color: red;
+
+}
+
+#rojo:hover{background-color:pink;}
+
+#azul{
+width: 
+height: 
+background-color: blue;
+
+}
+
+#azul:hover{background-color: #55f;}
+
+#negro{
+width: ;
+height:;
+background-color:black;
+
+}
+
+#negro:hover{background-color:#333;}
+
+#amarillo{
+
+width: 
+height: 
+background-color:yellow;
+}
+
+
+#verde{
+width: 
+height: 
+background-color:green;
+
+}
+
+
+

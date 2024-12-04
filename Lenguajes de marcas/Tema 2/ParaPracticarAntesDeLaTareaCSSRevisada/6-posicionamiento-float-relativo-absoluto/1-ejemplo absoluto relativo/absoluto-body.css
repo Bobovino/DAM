@@ -1,0 +1,58 @@
+body{ background-color: #EEE}
+
+#contenido{
+
+width: 500px;
+height: 500px;
+
+margin-left: 300px;
+background-color: silver;
+}
+
+#rojo{
+width: 80px;
+height: 80px;
+background-color: red;
+
+}
+
+
+
+#azul{
+
+position:absolute;
+left:100px;
+
+
+width: 80px;
+height: 80px;
+background-color: blue;
+
+}
+
+
+#negro{
+
+width: 80px;
+height: 80px;
+background-color:black;
+
+}
+
+
+#amarillo{
+width: 80px;
+height: 80px;
+background-color:yellow;
+}
+
+
+#verde{
+width: 80px;
+height: 80px;
+background-color:green;
+
+}
+
+
+}

@@ -1,0 +1,58 @@
+body{ background-color: #EEE}
+
+#contenido{
+
+width: 500px;
+height: 500px;
+
+background-color: orange;
+}
+
+#rojo{
+width: 150px;
+height: 350px;
+background-color: red;
+float: left;
+}
+
+
+
+#azul{
+width: 350px;
+height: 150px;
+background-color: blue;
+float:left;
+}
+
+
+
+#negro{
+width: 180px;
+height: 200px;
+background-color:black;
+float:left;
+}
+
+
+
+#amarillo{
+float:right;
+width: 170px;
+height: 350px;
+background-color:yellow;
+}
+
+
+
+#verde{
+width: 330px;
+height: 150px;
+background-color:green;
+float:right;
+}
+#verde:hover{background-color:#5f5;}
+#rojo:hover{background-color:pink;}
+#amarillo:hover{background-color:#FE8;}
+#azul:hover{background-color: #55f;}
+#negro:hover{background-color:#333;}
+}

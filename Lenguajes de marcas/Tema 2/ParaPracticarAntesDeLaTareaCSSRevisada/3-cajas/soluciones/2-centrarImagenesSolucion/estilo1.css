@@ -1,0 +1,12 @@
+body{background:green;}
+
+#contenido{width:50%;
+           height:500px;
+           margin:auto;
+           background:orange;}
+
+img{width:80%;
+    height:50%;
+   /* display:block;
+    margin:auto;   el margen automatico para elementos de bloque*/
+   margin-left:10%;}

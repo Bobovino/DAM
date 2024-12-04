@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<mensaje> 
+  <fecha>
+    <dia>13</dia>
+    <mes>1</mes>
+    <año>2021</año>
+  </fecha>
+  <remite> 
+     <nombre>pepe</nombre> 
+     <email>pepe@hotmail.com</email> 
+  </remite> 
+  <destinatario> 
+      <nombre>direcctora del instituto</nombre> 
+      <email>direccion@gmail.com</email> 
+  </destinatario> 
+  <asunto>Hola Directora</asunto> 
+  <texto> 
+       ¿Hola qué tal? Hace tiempo que deseaba presentarme como alumno del ASIR diurno.
+  </texto> 
+</mensaje> 
+

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<mensaje  fecha="16-10-2024"> 
+  <remite> 
+     <nombre>pepe</nombre> 
+     <email>pepe@hotmail.com</email> 
+  </remite> 
+  <destinatario> 
+      <nombre>direcctora del instituto</nombre> 
+      <email>direccion@gmail.com</email> 
+  </destinatario> 
+  <asunto>Hola Directora</asunto> 
+  <texto> 
+       ¿Hola qué tal? Hace tiempo que deseaba presentarme como alumno del DAM diurno.
+  </texto> 
+</mensaje> 
+

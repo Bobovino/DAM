@@ -1,0 +1,56 @@
+body{ background-color: #EEE}
+
+#contenido{
+position:absolute;
+width: 500px;
+height: 500px;
+top: 50%;
+left: 50%;
+margin-top: -250px;
+margin-left: -250px;
+background-color: orange;
+}
+
+#rojo{
+width: 150px;
+height: 350px;
+background-color: red;
+float: left;
+}
+
+#rojo:hover{background-color:pink;}
+
+#azul{
+width: 350px;
+height: 150px;
+background-color: blue;
+float:left;
+}
+
+#azul:hover{background-color: #55f;}
+
+#negro{
+width: 180px;
+height: 200px;
+background-color:black;
+float:left;
+}
+
+#negro:hover{background-color:#333;}
+
+#amarillo{
+float:right;
+width: 170px;
+height: 350px;
+background-color:yellow;
+}
+
+#amarillo:hover{background-color:#FE8;}
+
+#verde{
+width: 330px;
+height: 150px;
+background-color:green;
+float:right;
+}
+#verde:hover{background-color:#5f5;}

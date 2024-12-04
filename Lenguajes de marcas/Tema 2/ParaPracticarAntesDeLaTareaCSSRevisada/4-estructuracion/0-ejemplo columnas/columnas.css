@@ -1,0 +1,22 @@
+#columna1 {
+	float:left;
+	width: 33%;
+}
+
+#columna2 {
+	float:left;
+	width: 33%;
+}
+
+#columna3 {
+	float:left;
+	width: 33%;
+
+
+/*#columna1,#columna2,#columna3 {
+	float:left;
+	width: 33%;
+}*/
+
+}
+.limpio{clear:both;}

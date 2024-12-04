@@ -1,0 +1,59 @@
+body{ background-color: #EEE}
+
+#contenido{
+
+width: 500px;
+height: 500px;
+/*position:absolute;
+top: 50%;
+left: 50%;
+margin-top: -250px;
+margin-left: -250px;*/
+background-color: silver;
+}
+
+#rojo{
+width: 80px;
+height: 80px;
+background-color: red;
+
+}
+
+
+
+#azul{
+width: 80px;
+height: 80px;
+
+margin-top:50px;
+margin-left:30px;
+
+
+background-color: blue;
+
+}
+
+
+#negro{
+width: 80px;
+height: 80px;
+background-color:black;
+
+}
+
+
+#amarillo{
+width: 80px;
+height: 80px;
+background-color:yellow;
+
+}
+
+
+#verde{
+width: 80px;
+height: 80px;
+background-color:green;
+
+}
+

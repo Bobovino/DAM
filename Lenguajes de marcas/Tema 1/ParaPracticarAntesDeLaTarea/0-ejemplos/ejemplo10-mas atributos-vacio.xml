@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<mensaje  dia="16" mes="10" anio="2024"> 
+  <remite> 
+     <nombre>pepe</nombre> 
+     <email>pepe@hotmail.com</email> 
+  </remite> 
+  <destinatarios>  
+      <destinatario cargo="directora" email="direccion@gmail.com" nombre="Rosa"  />
+      <destinatario cargo="jefeestudios" email="jefe@gmail.com" nombre="Pedro"   />
+      <destinatario cargo="secretario" email="secre@gmail.com" nombre="Ramón"    />
+  </destinatarios> 
+  <asunto>Hola Jefatura</asunto> 
+  <texto> 
+       ¿Hola qué tal? Hace tiempo que deseaba presentarme como alumno del DAM Virtual.
+  </texto> 
+</mensaje> 
+

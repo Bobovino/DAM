@@ -1,0 +1,57 @@
+body{ background-color: #EEE}
+
+#contenido{
+
+width: 500px;
+height: 500px;
+/*position:absolute;
+top: 50%;
+left: 50%;
+margin-top: -250px;
+margin-left: -250px;
+background-color: orange;*/
+}
+
+#rojo{
+width: 150px;
+height: 150px;
+background-color: red;
+float: left;
+}
+
+
+
+#azul{
+width: 150px;
+height: 150px;
+background-color: blue;
+float: left;
+}
+
+
+#negro{
+clear:both;
+width: 150px;
+height: 150px;
+background-color:black;
+}
+
+
+
+#amarillo{
+
+width: 150px;
+height: 150px;
+background-color:yellow;
+}
+
+
+
+#verde{
+width: 150px;
+height: 150px;
+background-color:green
+}
+
+
+}

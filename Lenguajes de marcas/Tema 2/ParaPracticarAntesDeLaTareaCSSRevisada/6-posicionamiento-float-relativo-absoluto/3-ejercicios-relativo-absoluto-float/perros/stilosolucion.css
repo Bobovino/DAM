@@ -1,0 +1,16 @@
+#contenedor{position:relative;
+             width:50%;
+            margin:auto;
+           background:silver;}
+
+#scooby{position:relative;
+         top:100px;
+         left:300px;}
+
+#lassie{position:absolute;
+        top:200px;
+        left:300px;}
+
+#dartacan{position:relative;
+         right:200px;
+         bottom:100px;}

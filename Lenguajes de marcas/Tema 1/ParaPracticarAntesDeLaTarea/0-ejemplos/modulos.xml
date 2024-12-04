@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<modulos>
+
+  <curso>24-25</curso>
+
+  <modulo  identificador="LM" >
+    <nombre>lenguajes de marcas</nombre>
+    <profesor bilingue="no"> Antonio </profesor>
+    <profesor bilingue="si"> sara </profesor>
+  </modulo>
+
+  <modulo  identificador="ING">
+    <nombre>Ingles</nombre>
+    <profesor  bilingue="si">Mary</profesor>
+  </modulo>
+
+</modulos>

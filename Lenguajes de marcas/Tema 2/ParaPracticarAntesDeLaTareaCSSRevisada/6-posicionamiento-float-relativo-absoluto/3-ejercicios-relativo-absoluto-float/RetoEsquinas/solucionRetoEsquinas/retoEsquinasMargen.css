@@ -1,0 +1,77 @@
+body{ background-color: #EEE}
+
+#contenido{
+position:relative; /*lo importante es que tenga posicionamiento, aunque no se le desplace*/
+
+width: 500px;
+height: 500px;
+margin:auto;
+
+background-color: silver;
+}
+
+#rojo{
+position:absolute;
+top:0%;
+left:0%;
+width: 80px;
+height: 80px;
+background-color: red;
+
+}
+
+
+
+#azul{
+
+position:absolute;
+right:0%;
+top:0%;
+
+width: 80px;
+height: 80px;
+background-color: blue;
+
+}
+
+
+#negro{position:absolute;
+bottom:0%;
+left:0%;
+
+width: 80px;
+height: 80px;
+background-color:black;
+
+}
+
+
+#amarillo{position:absolute;
+bottom:0%;
+right:0%;
+width: 80px;
+height: 80px;
+background-color:yellow;
+}
+
+
+#verde{
+position:absolute;
+/*top:50%;
+left:50%;
+margin-left:-40px;
+margin-top:-40px;*/
+top:210px;
+left:210px;
+width: 80px;
+height: 80px;
+background-color:green;
+
+
+
+
+
+}
+
+
+
