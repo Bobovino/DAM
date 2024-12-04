@@ -1,0 +1,46 @@
+# Ignore class files and compiled Java files
+*.class
+*.jar
+*.war
+
+# Ignore JavaScript build artifacts
+node_modules/
+dist/
+
+# Ignore IDE configuration and logs
+.idea/
+*.log
+*.iml
+.vscode/
+
+# Ignore MP3 files
+*.mp3
+
+# Ignore compressed folders
+*.zip
+*.rar
+*.7z
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled Java bytecode
+*.class
+*.ear
+*.war
+*.jar
+
+# Ignore log files
+*.log
+
+# Ignore transpiled/bundled JavaScript
+*.min.js
+*.map
+
+# Ignore temp and cache folders
+.tmp/
+.cache/
+
+# Ignore HTML build artifacts
+build/
