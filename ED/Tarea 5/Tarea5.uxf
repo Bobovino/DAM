@@ -1,0 +1,93 @@
+<diagram program="umletino" version="15.1"><zoom_level>8</zoom_level><element><id>UMLClass</id><coordinates><x>552</x><y>192</y><w>216</w><h>120</h></coordinates><panel_attributes>Vendedor
+--
+- nombre: String
+- idEmpleado: int
+- dni: String
+- sueldoBase: double
+--
++ calcularComision(): double
++ registrarVenta(Articulo, Cliente): Venta</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>640</x><y>456</y><w>216</w><h>128</h></coordinates><panel_attributes>Venta
+--
+- fecha: String
+- importe: double
+- articulo: Articulo
+- cliente: Cliente
+--
++ calcularDescuento(): double
++ generarFactura(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>920</x><y>192</y><w>184</w><h>160</h></coordinates><panel_attributes>Articulo
+--
+- codigo: String
+- nombre: String
+- descripcion: String
+- precio: double
+- categoria: String
+- talla: String
+--
++ obtenerPrecio(): double
++ mostrarDetalles(): void
++ actualizarStock(): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>960</x><y>464</y><w>184</w><h>128</h></coordinates><panel_attributes>Cliente
+--
+- nombre: String
+- dni: String
+- email: String
+- tipoCliente: String
+--
++ calcularDescuento(): double
++ actualizarPerfil(String): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>80</x><y>192</y><w>184</w><h>128</h></coordinates><panel_attributes>TiendaOnline
+--
+- nombre: String
+- url: String
+- listaVendedores: Vendedor[]
+--
++ registrarVendedor(): void
++ eliminarVendedor(): void
++ calcularVentas(): double</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>216</x><y>312</y><w>88</w><h>88</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=*</panel_attributes><additional_attributes>11;10;90;90</additional_attributes></element><element><id>Relation</id><coordinates><x>640</x><y>304</y><w>56</w><h>80</h></coordinates><panel_attributes>lt=&lt;.
+m1=1
+m2=*</panel_attributes><additional_attributes>50;10;10;76</additional_attributes></element><element><id>Relation</id><coordinates><x>768</x><y>232</y><w>160</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+m1=1
+m2=0..n</panel_attributes><additional_attributes>180;10;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>856</x><y>512</y><w>120</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+m1=1
+m2=0..n</panel_attributes><additional_attributes>130;10;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>312</x><y>200</y><w>184</w><h>120</h></coordinates><panel_attributes>Articulo
+--
+- codigo: String
+- nombre: String
+- descripcion: String
+- precio: double
+- color: String
+- material: String
+- stock: int
+--
++ obtenerPrecio(): double
++ actualizarStock(int): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>248</x><y>384</y><w>128</w><h>88</h></coordinates><panel_attributes>Zapato
+--
+- numero: int
+- tipo: String
+--
++ mostrarDetalles(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>408</x><y>384</y><w>128</w><h>88</h></coordinates><panel_attributes>Bolso
+--
+- tipo: String
+--
++ mostrarDetalles(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>600</x><y>368</y><w>128</w><h>64</h></coordinates><panel_attributes>Complemento
+--
+- talla: String
+--
++ mostrarDetalles(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>344</x><y>48</y><w>184</w><h>120</h></coordinates><panel_attributes>Campaña
+--
+- idCampaña: int
+- temporada: String
+- año: int
+- estado: String
+--
++ abrirCampaña(): void
++ cerrarCampaña(): void
++ añadirArticulo(Articulo): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>720</x><y>56</y><w>184</w><h>104</h></coordinates><panel_attributes>Socio
+--
+- nombre: String
+- email: String
+- direccion: String
+--
++ actualizarDatos(String): void
++ verPedidos(): List&lt;Pedido&gt;
++ cancelarPedido(Pedido): boolean</panel_attributes><additional_attributes></additional_attributes></element></diagram>
