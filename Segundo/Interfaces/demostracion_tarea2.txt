@@ -1,0 +1,6 @@
+He hecho una app en React la cual graba mis movimientos y juega conmigo a piedra papel o tijera según el gesto que detecte.
+
+
+Link del vídeo:https://drive.google.com/file/d/1-BGj4zh8jWUkL8swSu1UYL8DGv1XMrCX/view?usp=sharing
+Link del modelo:https://teachablemachine.withgoogle.com/models/bneFAKwHY/
+Link de la app:https://piedra-papel-tijera-brown.vercel.app/
